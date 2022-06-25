@@ -3,7 +3,7 @@ languageCode = 'ja'
 defaultContentLanguage = 'ja'
 title = 'My New Hugo Site'
 theme = 'hugo-PaperMod'
-publishDir = "docs"
+publishDir = "../docs"
 canonifyurls = true
 
 [author]
