@@ -1,3 +1,3 @@
 [submodule "blog/themes/hugo-PaperMod"]
     path = blog/themes/hugo-PaperMod
-    url = `git://github.com/adityatelange/hugo-PaperMod.git`
+    url = `git@github.com:adityatelange/hugo-PaperMod.git`
