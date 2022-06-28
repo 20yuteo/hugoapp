@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://20yuteo.github.io/hugoapp/'
 languageCode = 'ja'
 defaultContentLanguage = 'ja'
 title = 'My New Hugo Site'
