@@ -5,9 +5,8 @@
 # 既存のdocsフォルダの削除
 rm -rf docs
 
--c cd blog
 # docsファイルの作成
-docker-compose exec hugo hugo
+docker-compose exec web hugo
 
 # docsファイルの移動
 mv site/public docs
