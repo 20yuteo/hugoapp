@@ -5,6 +5,7 @@
 # 既存のdocsフォルダの削除
 rm -rf docs
 
+-c cd blog
 # docsファイルの作成
 docker-compose exec hugo hugo
 
