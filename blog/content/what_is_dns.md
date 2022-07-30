@@ -6,7 +6,7 @@ categories:
 tags:
 - DNS
 archives:
-- 2022-06-30
+- 2022-07-30
 keywords:
 - NetWork
 - Server
