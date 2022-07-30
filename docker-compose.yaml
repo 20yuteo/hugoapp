@@ -9,3 +9,4 @@ services:
         - "1313:1313"
     tty: true
     working_dir: /src
+    command: -c 'cd blog; hugo server'

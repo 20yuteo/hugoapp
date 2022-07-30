@@ -1,18 +1,20 @@
 baseURL = 'https://20yuteo.github.io/hugoapp/'
 languageCode = 'ja'
 defaultContentLanguage = 'ja'
-title = 'My New Hugo Site'
+title = '20yuteo.log'
 theme = 'hugo-PaperMod'
 publishDir = "../docs"
 canonifyurls = true
+enableEmoji = true
+
 
 [author]
-  name = "はらちゃん"
-  bio = "なかなか痩せられないエンジニアです。"
-  job = "backend enginner"
-  location = "Japan"
-  # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
-  gravatarEmail = "hoge@example.com"
+  name = "20yuteo"
+  bio = ""
+  job = "web enginner"
+  location = "Japan Tokyo "
+  email = "20yuteo@gmail.com"
+  discribe = "test"
 
 [params]
   sidebarBehavior = 2
@@ -24,31 +26,10 @@ canonifyurls = true
   imageGallery = true
   hierarchicalCategories = true
   syntaxHighlighter = 'highlight.js'
+  customCSS = ["/css/custom.css"]
 
-[[menu.main]]
-  weight = 1
-  identifier = "home"
-  name = "Home"
-  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-home\" aria-hidden=\"true\"></i>"
-  url = "/hugoapp"
-[[menu.main]]
-  weight = 2
-  identifier = "categories"
-  name = "Categories"
-  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-bookmark\" aria-hidden=\"true\"></i>"
-  url = "/hugoapp/categories"
-[[menu.main]]
-  weight = 3
-  identifier = "tags"
-  name = "Tags"
-  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-tags\" aria-hidden=\"true\"></i>"
-  url = "/hugoapp/tags"
-[[menu.main]]
-  weight = 5
-  identifier = "about"
-  name = "About"
-  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-question\" aria-hidden=\"true\"></i>"
-  url = "/hugoapp/about"
+[taxonomies]
+  archive = "archives"
 
 [[menu.links]]
   weight = 0
