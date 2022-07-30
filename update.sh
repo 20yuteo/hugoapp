@@ -6,7 +6,7 @@
 rm -rf docs
 
 # docsファイルの作成
-docker-compose exec web hugo
+docker-compose exec hugo hugo
 
 # docsファイルの移動
 mv site/public docs
