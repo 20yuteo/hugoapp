@@ -10,3 +10,11 @@ services:
     tty: true
     working_dir: /src
     command: -c 'cd blog; hugo server'
+
+  hugo-build:
+    image: klakegg/hugo:0.74.3-ubuntu  # バージョンを最新に更新
+    volumes:
+        - ".:/src"
+    working_dir: /src/blog
+    entrypoint: hugo
+    command: --minify
