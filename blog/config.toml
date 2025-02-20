@@ -1,4 +1,4 @@
-baseURL = 'https://20yuteo.github.io/hugoapp/'
+baseURL = 'https://20yuteo.com/hugoapp/'
 languageCode = 'ja'
 defaultContentLanguage = 'ja'
 title = '20yuteo.log'
